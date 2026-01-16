@@ -1,6 +1,6 @@
 # Flutter Enterprise Project Template
 
-A production-ready Flutter application template following Clean Architecture and Very Good Ventures patterns and best practices.
+A production-ready Flutter application template following Clean Architecture and Very Good Ventures patterns and best practices.<br>
 Use create_enterprise_project.sh to create the whole project folder structures.
 
 ## Features
