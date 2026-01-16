@@ -16,6 +16,3 @@ Use create_enterprise_project.sh to create the whole project folder structures.
 - 📊 **Analytics and monitoring** integration
 - 🔒 **Security best practices** implemented
 - 🚀 **CI/CD ready** with GitHub Actions
-
-echo "Project created successfully!"
-echo "Run: cd $PROJECT_NAME && fvm flutter pub get"
