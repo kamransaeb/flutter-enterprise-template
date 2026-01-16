@@ -1,0 +1,93 @@
+name: flutter_enterprise_template
+description: A Flutter Enterprise Template 
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Core
+  freezed_annotation: ^2.4.1
+  get_it: ^7.6.4
+  injectable: ^2.1.5
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  
+  # State Management
+  flutter_bloc: ^8.1.3
+  hydrated_bloc: ^9.1.2
+  
+  # Network 
+  dio: ^5.1.2  
+  retrofit: ^4.0.1  
+  logger: ^2.0.2
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Firebase (using latest compatible versions)
+  firebase_core: ^2.28.2
+  firebase_analytics: ^10.7.2
+  firebase_crashlytics: ^3.3.6
+  firebase_remote_config: ^4.2.1  
+  
+  # Monitoring
+  sentry_flutter: ^7.20.0
+  
+  # UI
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  auto_route: ^7.8.2  # VGV often uses auto_route for navigation
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Utils
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  package_info_plus: ^4.1.0
+  connectivity_plus: ^4.0.1
+  device_info_plus: ^10.0.0
+  
+  # Very Good Analysis (VGV's lint rules)
+  very_good_analysis: ^5.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.5
+  freezed: ^2.3.2
+  injectable_generator: ^2.1.1
+  retrofit_generator: ^9.7.0
+  mocktail: ^0.3.0
+
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    - assets/translations/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
