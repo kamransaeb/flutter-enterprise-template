@@ -12,64 +12,64 @@ dependencies:
     sdk: flutter
   
   # Core
-  freezed_annotation: ^2.4.1
-  get_it: ^7.6.4
-  injectable: ^2.1.5
+  freezed_annotation: ^3.1.0
+  get_it: ^9.2.0
+  injectable: ^2.7.1+4
   equatable: ^2.0.5
   dartz: ^0.10.1
   
   # State Management
-  flutter_bloc: ^8.1.3
-  hydrated_bloc: ^9.1.2
+  flutter_bloc: ^9.1.1
+  hydrated_bloc: ^10.1.1
   
   # Network 
-  dio: ^5.1.2  
-  retrofit: ^4.0.1  
-  logger: ^2.0.2
+  dio: ^5.9.0  
+  retrofit: ^4.9.2
+  logger: ^2.6.2
 
   # Local Storage
-  shared_preferences: ^2.2.2
+  shared_preferences: ^2.5.4
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   
-  # Firebase (using latest compatible versions)
-  firebase_core: ^2.28.2
-  firebase_analytics: ^10.7.2
-  firebase_crashlytics: ^3.3.6
-  firebase_remote_config: ^4.2.1  
+  # Firebase
+  firebase_core: ^4.3.0
+  firebase_analytics: ^12.1.0
+  firebase_crashlytics: ^5.0.6
+  firebase_remote_config: ^6.1.3  
   
   # Monitoring
-  sentry_flutter: ^7.20.0
+  sentry_flutter: ^9.10.0
   
   # UI
-  flutter_svg: ^2.0.9
+  flutter_svg: ^2.2.3
   cached_network_image: ^3.3.0
   shimmer: ^3.0.0
-  auto_route: ^7.8.2  # VGV often uses auto_route for navigation
   
   # Navigation
-  go_router: ^12.1.3
+  go_router: ^17.0.1
+  auto_route: ^11.1.0
   
   # Utils
-  intl: ^0.18.1
+  intl: ^0.20.2
   url_launcher: ^6.2.1
-  package_info_plus: ^4.1.0
-  connectivity_plus: ^4.0.1
-  device_info_plus: ^10.0.0
+  package_info_plus: ^9.0.0
+  connectivity_plus: ^7.0.0
+  device_info_plus: ^12.3.0
   
   # Very Good Analysis (VGV's lint rules)
-  very_good_analysis: ^5.0.0
+  very_good_analysis: ^10.0.0
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
-  build_runner: ^2.4.5
-  freezed: ^2.3.2
-  injectable_generator: ^2.1.1
-  retrofit_generator: ^9.7.0
-  mocktail: ^0.3.0
+  flutter_lints: ^6.0.0
+  build_runner: ^2.10.5
+  freezed: ^3.2.4
+  injectable_generator: ^2.12.0
+  retrofit_generator: ^10.2.1
+  mocktail: ^1.0.4
 
 
 flutter:
@@ -91,3 +91,4 @@ flutter:
           weight: 600
         - asset: assets/fonts/Inter-Bold.ttf
           weight: 700
+          
